@@ -1,26 +1,110 @@
 @import "tailwindcss";
 
+/* ── Habilita dark mode por clase (.dark en <html>) ── */
+@custom-variant dark (&:is(.dark *));
+
+/* ══════════════════════════════════════
+   TOKENS DE COLOR — tema claro
+══════════════════════════════════════ */
 :root {
+  /* Superficies */
   --background: #ffffff;
-  --foreground: #171717;
+  --surface: #f8f8f8;
+  --surface-2: #f0f0f0;
+
+  /* Texto */
+  --foreground: #0f0f0f;
+  --foreground-2: #3f3f46;
+  /* zinc-700 */
+  --foreground-3: #71717a;
+  /* zinc-500 */
+  --foreground-4: #a1a1aa;
+  /* zinc-400 */
+
+  /* Bordes */
+  --border: #e4e4e7;
+  /* zinc-200 */
+  --border-2: #f4f4f5;
+  /* zinc-100 */
+
+  /* Acento (azul) */
+  --accent: #2563eb;
+  /* blue-600 */
+  --accent-light: #eff6ff;
+  /* blue-50  */
+  --accent-ring: #bfdbfe;
+  /* blue-200 */
 }
 
+/* ══════════════════════════════════════
+   TOKENS DE COLOR — tema oscuro
+══════════════════════════════════════ */
+.dark {
+  /* Superficies */
+  --background: #0a0a0a;
+  --surface: #141414;
+  --surface-2: #1c1c1c;
+
+  /* Texto */
+  --foreground: #fafafa;
+  --foreground-2: #d4d4d8;
+  /* zinc-300 */
+  --foreground-3: #a1a1aa;
+  /* zinc-500 */
+  --foreground-4: #71717a;
+  /* zinc-500 */
+
+  /* Bordes */
+  --border: #27272a;
+  /* zinc-800  */
+  --border-2: #1c1c1e;
+  /* algo entre zinc-900 y black */
+
+  /* Acento (azul) */
+  --accent: #3b82f6;
+  /* blue-500  */
+  --accent-light: #172554;
+  /* blue-950  */
+  --accent-ring: #1e3a8a;
+  /* blue-900  */
+}
+
+/* ══════════════════════════════════════
+   TAILWIND v4 — theme tokens
+══════════════════════════════════════ */
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+
   --color-foreground: var(--foreground);
+  --color-foreground-2: var(--foreground-2);
+  --color-foreground-3: var(--foreground-3);
+  --color-foreground-4: var(--foreground-4);
+
+  --color-border: var(--border);
+  --color-border-2: var(--border-2);
+
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-ring: var(--accent-ring);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ══════════════════════════════════════
+   BASE
+══════════════════════════════════════ */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  transition: background-color 300ms ease, color 300ms ease;
 }
