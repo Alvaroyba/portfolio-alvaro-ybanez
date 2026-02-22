@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alvaro Ybañez | Frontend Developer",
+    title: "Alvaro Ybañez | FullStack Developer",
     description: "Especializado en React, React Native y desarrollo web de alto impacto.",
     images: ["/og-image.jpg"],
   },
