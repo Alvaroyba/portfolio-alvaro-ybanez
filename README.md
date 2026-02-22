@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Álvaro Ybañez | Software Developer Portfolio
 
-## Getting Started
+Este es mi portfolio profesional, diseñado para demostrar mis capacidades técnicas en el desarrollo de software de alto impacto, con un fuerte enfoque en el **Frontend Engineering**, la **Arquitectura de Software** y la **Calidad de Código**.
 
-First, run the development server:
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://portfolio-alvaroybas-projects.vercel.app/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Stack Tecnológico
+
+He seleccionado un stack moderno orientado a la escalabilidad y el rendimiento:
+
+- **Core:** Next.js 14/15, React, TypeScript.
+- **Styling & Motion:** Tailwind CSS, Framer Motion, Lucide Icons.
+- **State Management & Data:** TanStack Query, Zustand, tRPC.
+- **Backend & DB:** Node.js, Express, PostgreSQL, Prisma ORM.
+- **Testing & Quality:** Jest, React Testing Library, Cypress.
+- **Media:** Cloudinary (Video Optimization).
+
+## 🛠️ Características Destacadas
+
+- **Diseño de Interfaz:** Experiencia de usuario (UX) pulida con soporte nativo para Dark Mode y animaciones de alto rendimiento optimizadas para GPU mediante Framer Motion.
+- **Arquitectura Limpia:** Estructura de carpetas modular, basada en componentes reutilizables, hooks customizados y separación de lógica de negocio o datos (`projects.ts`, `portfolio.data.tsx`).
+- **Optimización de Medios:** Gestión de demostraciones en video mediante Cloudinary para garantizar una carga rápida y métricas de Core Web Vitals optimizadas en la navegación de proyectos.
+- **Estrategia de Versionado:** Uso de ramas y convenciones de commits profesionales para mantener un historial trazable y limpio.
+
+## 📂 Estructura del Proyecto
+
+```text
+├── public/           # Assets estáticos locales (imágenes, icons)
+├── src/
+│   ├── app/          # Next.js 14+ app router (page.tsx, layout.tsx, styles)
+│   ├── components/
+│   │   ├── sections/ # Componentes complejos que arman la landing (Hero, Projects, Experience)
+│   │   └── ui/       # Componentes de UI atómicos (Cards, Modals, Buttons)
+│   ├── data/         # Archivos unificados de contenido estático (TechStack, Experience, Certifications)
+│   └── hooks/        # Hooks personalizados para abstracción de lógica compleja (ej. scroll reveal)
+└── next.config.ts    # Configuración de entornos y dominios autorizados de media
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Instalación y Uso
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Clonar el repositorio:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/Alvaroyba/portfolio-alvaro-ybanez.git
+```
 
-## Learn More
+**Instalar dependencias:**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cd portfolio-alvaro-ybanez
+pnpm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Ejecutar en desarrollo:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm run dev
+```
 
-## Deploy on Vercel
+El proyecto estará disponible en [http://localhost:3000](http://localhost:3000).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 Contacto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Si estás buscando un desarrollador comprometido con la excelencia técnica y enfocado en el detalle:
+
+- **Email:** alvaro.ybanez16@gmail.com
+- **LinkedIn:** [linkedin.com/in/alvaro-ybanez](https://www.linkedin.com/in/alvaro-ybanez/)
+- **Web:** [https://portfolio-alvaroybas-projects.vercel.app/](https://portfolio-alvaroybas-projects.vercel.app/)
