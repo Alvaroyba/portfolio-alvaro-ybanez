@@ -23,6 +23,7 @@ export const projects: Project[] = [
         previewImage: "/projects/cv-optimizer/cv-optimizer-preview.png",
         images: [
             "/projects/cv-optimizer/cv-optimizer-preview.png",
+            "/projects/cv-optimizer/cv-optimizer-editor.png",
         ],
         placeholderBg: "bg-violet-950/40",
         link: "https://create-cv-1aq9.vercel.app/",
