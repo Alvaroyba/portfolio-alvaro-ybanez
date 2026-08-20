@@ -5,13 +5,13 @@ export const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1];
 export const EXPERIENCE = [
     {
         id: "censys",
-        role: "FrontEnd Developer",
+        role: "AI Integration Engineer & Frontend Developer",
         company: "Censys S.A.",
         period: "Dic 2024 — Actualidad",
         active: true,
         bullets: [
+            <>Diseñé e implementé un <strong className="text-zinc-700 dark:text-zinc-300">sistema agéntico de orquestación de IA</strong> que actúa como gateway centralizado, coordinando múltiples modelos de lenguaje y subagentes especializados para automatizar auditorías de seguridad, análisis técnico profundo y generación de suites de testing en los repositorios del equipo.</>,
             <>Implementé pipelines de <strong className="text-zinc-700 dark:text-zinc-300">CI/CD y automatización de pruebas</strong> (unitarias, de integración y E2E), mejorando drásticamente la calidad del código y reduciendo el margen de error en los despliegues a producción.</>,
-            <>Diseñé e integré <strong className="text-zinc-700 dark:text-zinc-300">agentes y subagentes de IA con VS Copilot</strong> para realizar auditorías de seguridad, análisis técnico profundo y generación automatizada de suites de testing en los repositorios.</>,
             <>Definí y estandaricé una <strong className="text-zinc-700 dark:text-zinc-300">nueva estrategia de versionado en Git</strong> exclusiva para el equipo Frontend, optimizando los tiempos de entrega y asegurando un historial colaborativo limpio y escalable.</>,
             <>Lideré el <strong className="text-zinc-700 dark:text-zinc-300">rediseño y migración arquitectónica</strong> de múltiples proyectos hacia versiones más modernas del ecosistema, reduciendo la deuda técnica y mejorando la mantenibilidad global.</>,
         ]
@@ -19,6 +19,8 @@ export const EXPERIENCE = [
 ];
 
 export const TECH_STACK = [
+    // IA & Automatización
+    "Python", "Multi-Agent Systems", "LiteLLM", "MCP", "Prompt Engineering", "VS Copilot",
     // Lenguajes Core
     "TypeScript",
     // Frontend Pesado

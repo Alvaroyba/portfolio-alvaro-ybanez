@@ -14,6 +14,20 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        id: "app-cv-optimizer",
+        title: "AI-Powered CV Optimizer & ATS Adapting System",
+        tagline: "Optimización de perfiles profesionales impulsada por LLMs.",
+        techStack: ["LLM Integration", "Prompt Engineering", "NLP", "Next.js", "TypeScript"],
+        description:
+            "Sistema de orquestación de LLMs diseñado para optimizar perfiles profesionales. Procesa el historial del usuario y cruza semánticamente la información con ofertas laborales (ATS). Implementa Prompt Engineering y procesamiento de lenguaje natural (NLP) para adaptar dinámicamente el contenido con alta precisión.",
+        previewImage: "/projects/cv-optimizer/cv-optimizer-preview.png",
+        images: [
+            "/projects/cv-optimizer/cv-optimizer-preview.png",
+        ],
+        placeholderBg: "bg-violet-950/40",
+        link: "https://create-cv-1aq9.vercel.app/",
+    },
+    {
         id: "app-antilu",
         title: "Gestión Comercial — Antilu",
         tagline: "Operaciones de ventas, compras y costos en un solo lugar.",

@@ -31,21 +31,20 @@ export default function AboutSection() {
                             className="flex flex-col gap-5 text-base text-zinc-600 dark:text-zinc-400 leading-relaxed"
                         >
                             <p>
-                                Soy un desarrollador con una curiosidad insaciable por aprender y mejorar todos los
-                                días. Mi trabajo se define por una profunda atención a los detalles y el compromiso
-                                innegociable de dar siempre el 100% en cada proyecto.
+                                Mi enfoque principal es el diseño de{" "}
+                                <strong className="text-zinc-800 dark:text-zinc-200">arquitecturas impulsadas por IA</strong>{" "}
+                                y la orquestación de sistemas multiagente. Mantengo una sólida base técnica en el
+                                desarrollo Full-Stack ({" "}
+                                <strong className="text-zinc-800 dark:text-zinc-200">Next.js, Node.js, PostgreSQL</strong>
+                                ), lo que me permite integrar modelos de lenguaje complejos en aplicaciones productivas
+                                escalables.
                             </p>
                             <p>
-                                Mi enfoque principal está en el Frontend, construyendo aplicaciones web y móviles con{" "}
-                                <strong className="text-zinc-800 dark:text-zinc-200">Next.js, umiJS y Expo</strong>.
-                                Sin embargo, tengo la capacidad de abarcar el ciclo completo del producto gracias a mis
-                                habilidades de Backend utilizando{" "}
-                                <strong className="text-zinc-800 dark:text-zinc-200">Node.js y Express</strong>,
-                                y gestión de bases de datos con{" "}
-                                <strong className="text-zinc-800 dark:text-zinc-200">SQL, PostgreSQL y Prisma ORM</strong>.
-                                Todo esto, priorizando siempre la implementación de arquitecturas escalables y asegurando
-                                la calidad del código mediante testing automatizado con{" "}
-                                <strong className="text-zinc-800 dark:text-zinc-200">Jest, Cypress y React Testing Library</strong>.
+                                Actualmente, construyo soluciones que automatizan análisis técnicos complejos y adaptan
+                                sistemas dinámicos mediante{" "}
+                                <strong className="text-zinc-800 dark:text-zinc-200">LLMs</strong>, asegurando siempre
+                                la calidad mediante{" "}
+                                <strong className="text-zinc-800 dark:text-zinc-200">metodologías ágiles y testing automatizado</strong>.
                             </p>
                             <p>
                                 Académicamente, soy estudiante de la carrera de{" "}

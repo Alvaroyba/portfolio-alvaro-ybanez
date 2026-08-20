@@ -72,7 +72,7 @@ export default function HeroSection({ heroRef, heroScroll }: HeroSectionProps) {
                     </motion.h1>
 
                     <motion.h2
-                        aria-label="Frontend Developer y Estudiante de Ingeniería en Inteligencia Artificial"
+                        aria-label="AI Integration Engineer & Full-Stack Developer"
                         initial={{ opacity: 0, y: 24 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, ease: EASE, delay: 0.26 }}
@@ -80,7 +80,7 @@ export default function HeroSection({ heroRef, heroScroll }: HeroSectionProps) {
                     >
                         <span aria-hidden="true">
                             <TypewriterText
-                                text="Frontend Developer & Estudiante de Ingeniería en IA"
+                                text="AI Integration Engineer & Full-Stack Developer"
                                 startDelay={800}
                                 speed={14}
                                 showCursor={false}
@@ -95,7 +95,7 @@ export default function HeroSection({ heroRef, heroScroll }: HeroSectionProps) {
                         className="max-w-lg text-base sm:text-lg text-zinc-500 dark:text-zinc-400 leading-relaxed"
                     >
                         <TypewriterText
-                            text="Desarrollador Full Stack orientado al Frontend. Construyo productos digitales end-to-end: desde experiencias de usuario fluidas y accesibles con React, React Native, hasta la lógica de negocio y APIs con Node.js."
+                            text="Orientado a la automatización avanzada con Inteligencia Artificial. Diseño y construyo arquitecturas digitales end-to-end, integrando sistemas multiagente con ecosistemas Full-Stack para crear soluciones escalables que optimizan auditorías, seguridad y flujos de desarrollo."
                             startDelay={1000}
                             speed={8}
                             showCursor={false}

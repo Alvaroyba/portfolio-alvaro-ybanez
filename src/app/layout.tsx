@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alvaro Ybañez | Frontend Developer",
+  title: "Alvaro Ybañez | AI Integration Engineer",
   description:
-    "Portfolio profesional de Alvaro Ybañez. Especializado en React, React Native y desarrollo web de alto impacto.",
+    "Portfolio profesional de Alvaro Ybañez. AI Integration Engineer & Full-Stack Developer especializado en orquestación de LLMs, sistemas multiagente y desarrollo end-to-end.",
   openGraph: {
-    title: "Alvaro Ybañez | Frontend Developer",
-    description: "Especializado en React, React Native y desarrollo web de alto impacto.",
+    title: "Alvaro Ybañez | AI Integration Engineer",
+    description: "AI Integration Engineer & Full-Stack Developer especializado en orquestación de LLMs, sistemas multiagente y desarrollo end-to-end.",
     url: "https://alvaroybanez.vercel.app",
     siteName: "Alvaro Ybañez Portfolio",
     images: [
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alvaro Ybañez | FullStack Developer",
-    description: "Especializado en React, React Native y desarrollo web de alto impacto.",
+    title: "Alvaro Ybañez | AI Integration Engineer",
+    description: "AI Integration Engineer & Full-Stack Developer especializado en orquestación de LLMs, sistemas multiagente y desarrollo end-to-end.",
     images: ["/og-image.jpg"],
   },
 };
